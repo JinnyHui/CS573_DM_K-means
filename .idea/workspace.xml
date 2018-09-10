@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b59846f-77ce-4873-bd4c-bfd6681414d7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/JH_myKmeans.py" afterPath="$PROJECT_DIR$/JH_myKmeans.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,11 +29,9 @@
       <file leaf-file-name="JH_myKmeans.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JH_myKmeans.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="47" column="37" lean-forward="true" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
-              <folding>
-                <element signature="e#85#95#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="95">
+              <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,8 +63,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="608" />
-    <option name="y" value="23" />
+    <option name="x" value="1044" />
+    <option name="y" value="50" />
     <option name="width" value="1522" />
     <option name="height" value="1317" />
   </component>
@@ -159,7 +158,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="608" y="23" width="1522" height="1317" extended-state="0" />
+    <frame x="1044" y="50" width="1522" height="1317" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15067567" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -208,11 +207,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JH_myKmeans.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="47" column="37" lean-forward="true" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
-          <folding>
-            <element signature="e#85#95#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="95">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
