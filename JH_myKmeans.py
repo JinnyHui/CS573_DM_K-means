@@ -38,7 +38,7 @@ def reader(file, k):
     f = open(file, 'r')
     for line in f:
         centroids_read.append(int(line))
-    if len(centroids) != k:
+    if len(centroids_read) != k:
         print('The number you input does not equal to the number of centroids in file!')
         sys.exit()
     else:
