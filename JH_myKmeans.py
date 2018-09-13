@@ -74,6 +74,21 @@ def mean(cluster, dataset):
         cluster_mean = np.mean(cluster_array, axis=0)
         return cluster_mean
 
+def purity(cluster):
+    """
+    help to calculate the purity score
+    :param cluster: each final cluster
+    :return: None
+    """
+    t1 = t2 = t3 = 0
+    for p in cluster.pointStore:
+        if p <= 50:
+            t1 += 1
+        elif p > 100:
+            t3 += 1
+        else:
+            t2 += 1
+    print('Purity: T1: ' + str(t1) + '  T2: ' + str(t2) + '  T3: ' + str(t3))
 
 class Cluster(object):
     def __init__(self):
@@ -152,7 +167,7 @@ while change > epsilon:
 
 # display the result
 print('1. The number of points: ' + str(pointNumber) + ';')
-print('   The number of dimensions: ' + str(dimension-1) + ';')
+print('   The number of dimensions: ' + str(dimension-1) + ' (labels are not included);')
 print('   The value of k: ' + str(clusterNumber))
 print('------------------------------------------------------')
 
@@ -164,6 +179,7 @@ for i in range(clusterNumber):  # display each cluster
     clusterList[i].SSE = SSE(clusterList[i], dataPoints)
     SSE_sum += clusterList[i].SSE
     print('Cluster ' + str(i+1) + ' :')
+    purity(clusterList[i])  # purity count
     clusterList[i].display()
 
 print('------------------------------------------------------')
